@@ -1,6 +1,55 @@
 {
-    "[html]": {
-        "editor.tabSize": 4
-    },
-    "editor.detectIndentation": false
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": true
+  },
+  "files.autoSave": "onFocusChange",
+  "files.autoSaveDelay": 2000,
+  "files.enableTrash": true,
+  "workbench.editor.limit.value": 6,
+  "workbench.editor.limit.enabled": true,
+  "workbench.colorTheme": "GitHub Dark",
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.02)",
+    "rgba(127,255,127,0.02)",
+    "rgba(255,127,255,0.02)",
+    "rgba(79,236,236,0.02)"
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "pnpm-lock.yaml": true
+  },
+  "explorer.confirmDelete": false,
+  "git.confirmSync": false,
+  "editor.fontFamily": "CommitMonoV138",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 1,
+  "editor.accessibilitySupport": "off",
+  "cSpell.words": [
+    "activites",
+    "Booki",
+    "Canebière",
+    "coeur",
+    "Economique",
+    "hebergements",
+    "Pomegues",
+    "Pomègues"
+  ]
 }
