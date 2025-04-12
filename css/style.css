@@ -10,14 +10,10 @@
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 }
-
 .fa-solid {
     color: var(--main-color);
 }
 body {
-    /*display: flex;
-   /* justify-content: space-between;
-    align-items: center;
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
@@ -49,8 +45,94 @@ a {
 }
 a:hover {
     color: var(--main-color);
-    padding : 20px;
-    border-top: 1px solid var(--main-color);
+}
+li:hover {
+    color: var(--main-color);
+    border-top: 3px solid var(--main-color);
+}
+header {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    height:auto;
+    width: 100%;
+    max-width: 1140px;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 22px;
+    padding: 0 50px;
+
+}
+p {
+    font-size: 16px;
+    padding: 0 50px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:flex-start;
+    height:auto;
+    max-width: 1140px;
+    margin-top: 50px;
+    gap: 35px;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+.search-bar {
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.location-icon {
+    color: black;
+    background-color: red;
+    width: 50 px;
+    padding : 50px;
+    height: auto;
+    border: none;
+    box-sizing: border-box;
+}
+.search-bar input {
+    height: 50px;
+    border: none;
+    background-color: blue;
+    box-sizing: border-box;
+}
+.search-bar button {
+    height: 50px;
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+    box-sizing: border-box;
+}
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+main {
+    height:auto;
+    width: 100%;
+    max-width: 1140px;
+    box-sizing: border-box;
+}
+.activites {
+    height:auto;
+    width: 100%;
+    max-width: 1140px;
+    box-sizing: border-box;
+}
+footer {
+    height:auto;
+    width: 100%;
+    max-width: 1140px;
+    box-sizing: border-box;
 }
 /*.main-container {
     width: 100%;
