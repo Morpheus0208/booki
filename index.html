@@ -26,6 +26,7 @@
         <li><a href="#activites">Activités</a></li>
       </ul>
     </nav>
+    <!-- section header avec un titre h1 et un paragraphe p -->
     <header>
       <h1>Trouvez votre hébergement pour les vacances de rêve</h1>
       <p>En plein centre-ville ou en plaine nature</p>
@@ -287,32 +288,33 @@
     </main>
     <!-- section activités marseille avec 4 cards( image et titre h3) et un titre H2 -->
     <section class="activites">
-      <div>
+      <div class="activites-title">
         <h2 id="activites">Activités à Marseille</h2>
       </div>
-      <div>
-        <article>
+      <div class="activites-container">
+        <article class="activites-card">
           <img
             src="images/activites/reno-laithienne.jpg"
             alt="image du vieux port de Marseille avec plein de bateaux"
           />
           <h3>Vieux-Port</h3>
         </article>
-        <article>
+        <article class="activites-card">
           <img
+            id="pommegues"
             src="images/activites/paul-hermann.jpg"
             alt="image du fort de Pomegues sur une montagne"
           />
           <h3>Fort de Pomègues</h3>
         </article>
-        <article>
+        <article class="activites-card">
           <img
             src="images/activites/kilyan-sockalingum.jpg"
             alt="vue sur les calanques et la mer"
           />
           <h3>Parc national des Calanques</h3>
         </article>
-        <article>
+        <article class="activites-card">
           <img
             src="images/activites/florian-wehde.jpg"
             alt="image de l’église Notre Dame de la Garde"
@@ -323,18 +325,20 @@
     </section>
     <!-- footer composer de 3 div composer d'un titre et de liens -->
     <footer>
-      <div>
+      <div class="footer-container">
         <h4>A propos</h4>
-        <a href="#">Fonctionnement du site</a>
-        <a href="#">Conditions générales</a>
-        <a href="#">Données et confidentialité</a>
+        <ul class="footer-ul">
+          <li><a href="#">Fonctionnement du site</a></li>
+          <li>><a href="#">Conditions générales</a></li>
+          <li><a href="#">Données et confidentialité</a></li>
+        </ul>
       </div>
-      <div>
+      <div class="footer-container">
         <h4>Nos hébergements</h4>
         <a href="#">Charte qualité</a>
         <a href="#">Proposer votre hôtel</a>
       </div>
-      <div>
+      <div class="footer-container">
         <h4>Assistance</h4>
         <a href="#">Centre d'aide</a>
         <a href="#">Nous contacter</a>
