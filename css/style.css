@@ -531,6 +531,12 @@ footer {
     flex-direction: row;
     justify-content: space-between;
   }
+  .populaires-card-content {
+    height: 146px;
+  }
+  h3 {
+    font-size: 1em;
+  }
   .activites-card {
     height: 270px;
   }
