@@ -403,7 +403,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 10px 5px 5px 15px;
+  padding: 10px 5px 5px 5px;
   width: 67%;
   box-sizing: border-box;
 }
@@ -547,7 +547,11 @@ footer {
     align-items: center;
     margin-bottom: 50px;
   }
-  nav header form main footer {
+  nav,
+  header,
+  form,
+  main,
+  footer {
     padding: 0 20px;
   }
   .populaires-container {
