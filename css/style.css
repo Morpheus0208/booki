@@ -118,8 +118,6 @@ form {
   box-sizing: border-box;
   width: 100%;
   max-width: 377px;
-  height: auto;
-  width: 50px;
 }
 .location-icon-block {
   display: flex;
@@ -576,6 +574,18 @@ footer {
   }
   .activites-card {
     height: 200px;
+  }
+  .card {
+    max-width: 100%;
+  }
+  .search-bar {
+    max-width: 100%;
+  }
+  .location-icon-block {
+    width: 50px;
+  }
+  #rechercher-button-mobile {
+    width: 50px;
   }
   .activites-card img {
     height: 141px;
